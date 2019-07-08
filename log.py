@@ -3,6 +3,9 @@
 #~ZeDD Parker
 # https://github.com/rezadkim
 
+#Update
+os.system("git pull")
+
 #Import
 import os,sys,time,random,hashlib,re,threading,json,getpass
 import requests,mechanize,urllib,cookielib
