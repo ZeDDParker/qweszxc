@@ -10,7 +10,7 @@
 			menu()
 		else:
 			keluar()
-	except (KeyError,IOError):
+	except IOError:
 		usr = raw_input(tutup+"           ["+lime+"+"+tutup+"] Username : "+lime)
 		pwd = raw_input(tutup+"           ["+lime+"+"+tutup+"] Password : "+lime)
 		try:
