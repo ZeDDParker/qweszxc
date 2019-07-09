@@ -1,4 +1,4 @@
-global token
+global id,token
 try:
 	token = open("log.txt","r").read()
 except IOError:
