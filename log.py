@@ -57,9 +57,9 @@ def menu():
 	except IOError:
 		os.system("reset")
 		print merah+" ||  || "+merah+"  ╔╦╗"+tutup+"┌─┐┬─┐┬┌─   "+merah+"╔═╗╔╗"+tutup
-		print merah+" \\\\"+putih+"()"+merah+"//"+merah+"   ║║"+tutup+"├─┤├┬┘├┴┐───"+merah+"╠╣ ╠╩╗"+tutup
+		print merah+" \\\\"+putih+"()"+merah+"//"+merah+"    ║║"+tutup+"├─┤├┬┘├┴┐───"+merah+"╠╣ ╠╩╗"+tutup
 		print merah+"//"+putih+"(__)"+merah+"\\\\"+merah+"  ═╩╝"+tutup+"┴ ┴┴└─┴ ┴   "+merah+"╚  ╚═╝"+tutup
-		print merah+"||    || "+tutup+u"  \u001b[7mAuthor: ZeDD Parker     \u001b[0m"
+		print merah+"||    || "+tutup+u" \u001b[7mAuthor : ZeDD Parker \u001b[0m"
 		print tutup+"["+lime+"*"+tutup+"] Name : "+lime+"-----"
 		print tutup+"["+lime+"*"+tutup+"] ID   : "+lime+"-----"
 		print tutup+"["+lime+"*"+tutup+"] Date : "+lime+time.asctime()
