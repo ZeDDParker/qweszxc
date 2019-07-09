@@ -11,7 +11,7 @@ except KeyError:
 	print tutup+"["+merah+"!"+tutup+"] Not Found"
 	raw_input(tutup+"\nBack ...")
 	menu_dump()
-r = requests.get("https://graph.facebook.com/"+idt+"?fields=friends.limit(5000)&access_token="+token)
+sr = requests.get("https://graph.facebook.com/"+idt+"?fields=friends.limit(5000)&access_token="+token)
 z = json.loads(r.text)
 print tutup+"["+lime+"+"+tutup+"] Fetching id all friend from "+lime+f['name']+tutup
 print tutup+"["+lime+"+"+tutup+"] Start ..."
