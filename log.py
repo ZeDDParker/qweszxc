@@ -59,7 +59,7 @@ def menu():
 		print merah+" ||  || "+merah+"  ╔╦╗"+tutup+"┌─┐┬─┐┬┌─   "+merah+"╔═╗╔╗"+tutup
 		print merah+" \\\\"+putih+"()"+merah+"//"+merah+"    ║║"+tutup+"├─┤├┬┘├┴┐───"+merah+"╠╣ ╠╩╗"+tutup
 		print merah+"//"+putih+"(__)"+merah+"\\\\"+merah+"  ═╩╝"+tutup+"┴ ┴┴└─┴ ┴   "+merah+"╚  ╚═╝"+tutup
-		print merah+"||    || "+tutup+u" \u001b[7mAuthor : ZeDD Parker \u001b[0m"
+		print merah+"||    || "+tutup+u" \u001b[7m Author: ZeDD Parker \u001b[0m"
 		print tutup+"["+lime+"*"+tutup+"] Name : "+lime+"-----"
 		print tutup+"["+lime+"*"+tutup+"] ID   : "+lime+"-----"
 		print tutup+"["+lime+"*"+tutup+"] Date : "+lime+time.asctime()
@@ -78,10 +78,10 @@ def menu():
 	except requests.exceptions.ConnectionError:
 		exit(merah+"[!] No Connection")
 	os.system("reset")
-	print merah+"||  || "+merah+"   ╔╦╗"+tutup+"┌─┐┬─┐┬┌─   "+merah+"╔═╗╔╗"+tutup
-	print merah+"\\\\"+putih+"()"+merah+"//"+merah+"    ║║"+tutup+"├─┤├┬┘├┴┐───"+merah+"╠╣ ╠╩╗"+tutup
-	print merah+"//"+putih+"(__)"+merah+"\\\\"+merah+"   ═╩╝"+tutup+"┴ ┴┴└─┴ ┴   "+merah+"╚  ╚═╝"+tutup
-	print merah+"||    || "+tutup
+	print merah+" ||  || "+merah+"  ╔╦╗"+tutup+"┌─┐┬─┐┬┌─   "+merah+"╔═╗╔╗"+tutup
+	print merah+" \\\\"+putih+"()"+merah+"//"+merah+"    ║║"+tutup+"├─┤├┬┘├┴┐───"+merah+"╠╣ ╠╩╗"+tutup
+	print merah+"//"+putih+"(__)"+merah+"\\\\"+merah+"  ═╩╝"+tutup+"┴ ┴┴└─┴ ┴   "+merah+"╚  ╚═╝"+tutup
+	print merah+"||    || "+tutup+u" \u001b[7m Author: ZeDD Parker \u001b[0m"
 	print tutup+"["+lime+"*"+tutup+"] Name : "+lime+nama
 	print tutup+"["+lime+"*"+tutup+"] ID   : "+lime+id
 	print tutup+"["+lime+"*"+tutup+"] Date : "+lime+time.asctime()
@@ -91,16 +91,16 @@ def menu():
 
 #Bannerchoose
 def choose_banner():
-	print tutup+"               ("+lime+"01"+tutup+") Login"
-	print tutup+"               ("+lime+"02"+tutup+") Account information"
-	print tutup+"               ("+lime+"03"+tutup+") Get ID/Email/Phone"
-	print tutup+"               ("+lime+"04"+tutup+") Facebook hacking tools"
+	print tutup+"         ("+lime+"01"+tutup+") Login"
+	print tutup+"         ("+lime+"02"+tutup+") Account information"
+	print tutup+"         ("+lime+"03"+tutup+") Get ID/Email/Phone"
+	print tutup+"         ("+lime+"04"+tutup+") Facebook hacking tools"
 	print
 	choose()
 
 #Syschoose
 def choose():
-	pilih = raw_input(tutup+"           ["+lime+">"+tutup+"] Choose : "+lime)
+	pilih = raw_input(tutup+"["+lime+"ZeDD"+tutup+"]> "+lime)
 	if pilih =="":
 		keluar()
 	elif pilih =="1":
