@@ -55,10 +55,14 @@ def menu():
 		token = open("log.txt","r").read()
 	except IOError:
 		os.system("reset")
-		print merah+"                ||  || "+tutup+" ["+lime+"*"+tutup+"] Name : "+lime+"-----"
-		print merah+"                \\\\"+putih+"()"+merah+"//"+tutup+"  ["+lime+"*"+tutup+"] ID   : "+lime+"-----"
-		print merah+"               //"+putih+"(__)"+merah+"\\\\"+tutup+" ["+lime+"*"+tutup+"] Date : "+lime+time.asctime()
-		print merah+"               ||    || "+tutup+36*"'"
+		print merah+"||  || "+merah+"   ╔╦╗"+tutup+"┌─┐┬─┐┬┌─   "+merah+"╔═╗╔╗"+tutup
+		print merah+"\\\\"+putih+"()"+merah+"//"+merah+"    ║║"+tutup+"├─┤├┬┘├┴┐───"+merah+"╠╣ ╠╩╗"+tutup
+		print merah+"//"+putih+"(__)"+merah+"\\\\"+merah+"   ═╩╝"+tutup+"┴ ┴┴└─┴ ┴   "+merah+"╚  ╚═╝"+tutup
+		print merah+"||    || "+tutup
+		print tutup+"["+lime+"*"+tutup+"] Name : "+lime+"-----"
+		print tutup+"["+lime+"*"+tutup+"] ID   : "+lime+"-----"
+		print tutup+"["+lime+"*"+tutup+"] Date : "+lime+time.asctime()
+		print tutup+36*"'"
 		print
 		choose_banner()
 	try:
@@ -73,10 +77,14 @@ def menu():
 	except requests.exceptions.ConnectionError:
 		exit(merah+"[!] No Connection")
 	os.system("reset")
-	print merah+"                ||  || "+tutup+" ["+lime+"*"+tutup+"] Name : "+lime+nama
-	print merah+"                \\\\"+putih+"()"+merah+"//"+tutup+"  ["+lime+"*"+tutup+"] ID   : "+lime+id
-	print merah+"               //"+putih+"(__)"+merah+"\\\\"+tutup+" ["+lime+"*"+tutup+"] Date : "+lime+time.asctime()
-	print merah+"               ||    || "+tutup+36*"'"
+	print merah+"||  || "+merah+"   ╔╦╗"+tutup+"┌─┐┬─┐┬┌─   "+merah+"╔═╗╔╗"+tutup
+	print merah+"\\\\"+putih+"()"+merah+"//"+merah+"    ║║"+tutup+"├─┤├┬┘├┴┐───"+merah+"╠╣ ╠╩╗"+tutup
+	print merah+"//"+putih+"(__)"+merah+"\\\\"+merah+"   ═╩╝"+tutup+"┴ ┴┴└─┴ ┴   "+merah+"╚  ╚═╝"+tutup
+	print merah+"||    || "+tutup
+	print tutup+"["+lime+"*"+tutup+"] Name : "+lime+nama
+	print tutup+"["+lime+"*"+tutup+"] ID   : "+lime+id
+	print tutup+"["+lime+"*"+tutup+"] Date : "+lime+time.asctime()
+	print tutup+36*"'"
 	print
 	choose_banner()
 
