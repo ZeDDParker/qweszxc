@@ -1,4 +1,5 @@
 #!\usr\bin\python-gerak"
+# coding=utf-8
 # Dark-FB v1.8
 #~ZeDD Parker
 # https://github.com/rezadkim
