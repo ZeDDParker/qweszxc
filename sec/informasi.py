@@ -104,7 +104,6 @@ for i in q['data']:
 					print tutup+"     "+lime+"-"+tutup+" School : "+lime+i['name']
 				except KeyError: pass
 		except KeyError: pass
-		print
 		print tutup+"["+lime+"+"+tutup+"] Done"
 		raw_input(tutup+"\nBack ...")
 		menu()
