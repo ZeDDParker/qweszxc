@@ -1,7 +1,6 @@
 try:
 	os.mkdir('out')
-except OSError:
-	pass
+except OSError: pass
 print
 r = requests.get("https://graph.facebook.com/me/friends?access_token="+token)
 z = json.loads(r.text)
