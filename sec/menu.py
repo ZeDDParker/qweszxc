@@ -7,6 +7,7 @@ except IOError:
 	print merah+" \\\\"+putih+"()"+merah+"//"+merah+"    ║║"+tutup+"├─┤├┬┘├┴┐───"+merah+"╠╣ ╠╩╗"+tutup
 	print merah+"//"+putih+"(__)"+merah+"\\\\"+merah+"  ═╩╝"+tutup+"┴ ┴┴└─┴ ┴   "+merah+"╚  ╚═╝"+kuning+"v1.8"+tutup
 	print merah+"||    || "+tutup+u" \u001b[7m Author: ZeDD Parker \u001b[0m"
+	print tutup+36*"'"
 	print tutup+"["+lime+"*"+tutup+"] Name : "+lime+"-----"
 	print tutup+"["+lime+"*"+tutup+"] ID   : "+lime+"-----"
 	print tutup+"["+lime+"*"+tutup+"] Date : "+lime+time.asctime()
@@ -29,6 +30,7 @@ print merah+" ||  || "+merah+"  ╔╦╗"+tutup+"┌─┐┬─┐┬┌─   
 print merah+" \\\\"+putih+"()"+merah+"//"+merah+"    ║║"+tutup+"├─┤├┬┘├┴┐───"+merah+"╠╣ ╠╩╗"+tutup
 print merah+"//"+putih+"(__)"+merah+"\\\\"+merah+"  ═╩╝"+tutup+"┴ ┴┴└─┴ ┴   "+merah+"╚  ╚═╝"+kuning+"v1.8"+tutup
 print merah+"||    || "+tutup+u" \u001b[7m Author: ZeDD Parker \u001b[0m"
+print tutup+36*"'"
 print tutup+"["+lime+"*"+tutup+"] Name : "+lime+nama
 print tutup+"["+lime+"*"+tutup+"] ID   : "+lime+id
 print tutup+"["+lime+"*"+tutup+"] Date : "+lime+time.asctime()
