@@ -19,7 +19,7 @@ save = open('out/idfriendfromfriend.txt','w')
 for y in z['friends']['data']:
 	idfromfriend.append(y['id'])
 	save.write(y['id']+'\n')
-	print (tutup+"\r["+lime+"+"+tutup+"] Total : "+lime+str(len(idfriend))),;sys.stdout.flush();time.sleep(0.0001)
+	print (tutup+"\r["+lime+"+"+tutup+"] Total : "+lime+str(len(idfromfriend))),;sys.stdout.flush();time.sleep(0.0001)
 save.close()
 print tutup+"\n["+lime+"+"+tutup+"] Successfully get id friend from "+lime+f['name']+tutup
 done = raw_input(tutup+"["+lime+"+"+tutup+"] Save file with name : "+lime)
