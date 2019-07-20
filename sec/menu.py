@@ -26,6 +26,6 @@ print merah+" \\\\"+putih+"()"+merah+"//"+merah+"    ║║"+tutup+"├─┤├
 print merah+"//"+putih+"(__)"+merah+"\\\\"+merah+"  ═╩╝"+tutup+"┴ ┴┴└─┴ ┴   "+merah+"╚  ╚═╝"+kuning+"v1.8"+tutup
 print merah+"||    || "+tutup+u" \u001b[7m Author: ZeDD Parker \u001b[0m"
 print
-print tutup+"        ["+blue+"●"+tutup+"] Welcome : "+lime+nama+tutup
+print tutup+"        ["+blue+"●"+tutup+"] User : "+lime+nama+tutup
 print
 choose_banner()
