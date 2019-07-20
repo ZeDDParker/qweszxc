@@ -15,7 +15,7 @@ try:
 	nama = a['name']
 	id   = a['id']
 except KeyError:
-	print tutup+"           ["+kuning+"+"+tutup+"] Checkpoint"
+	print tutup+"["+kuning+"+"+tutup+"] Checkpoint"
 	os.system("rm -rf log.txt")
 	keluar()
 except requests.exceptions.ConnectionError:
