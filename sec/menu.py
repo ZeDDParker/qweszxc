@@ -8,7 +8,6 @@ except IOError:
 	print merah+"//"+putih+"(__)"+merah+"\\\\"+merah+"  ═╩╝"+tutup+"┴ ┴┴└─┴ ┴   "+merah+"╚  ╚═╝"+kuning+"v1.8"+tutup
 	print merah+"||    || "+tutup+u" \u001b[7m Author: ZeDD Parker \u001b[0m"
 	print
-	print tutup+"["+lime+"Menu"+tutup+"] :"
 	choose_banner()
 try:
 	cek  = requests.get("https://graph.facebook.com/me?access_token="+token)
@@ -26,7 +25,6 @@ print merah+" ||  || "+merah+"  ╔╦╗"+tutup+"┌─┐┬─┐┬┌─   
 print merah+" \\\\"+putih+"()"+merah+"//"+merah+"    ║║"+tutup+"├─┤├┬┘├┴┐───"+merah+"╠╣ ╠╩╗"+tutup
 print merah+"//"+putih+"(__)"+merah+"\\\\"+merah+"  ═╩╝"+tutup+"┴ ┴┴└─┴ ┴   "+merah+"╚  ╚═╝"+kuning+"v1.8"+tutup
 print merah+"||    || "+tutup+u" \u001b[7m Author: ZeDD Parker \u001b[0m"
-print tutup+"Welcome : "+lime+nama+tutup
+print tutup+"         Welcome : "+lime+nama+tutup
 print
-print tutup+"["+lime+"Menu"+tutup+"] :"
 choose_banner()
