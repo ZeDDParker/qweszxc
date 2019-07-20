@@ -27,4 +27,4 @@ os.rename('out/idfriendfromfriend.txt','out/'+done)
 print tutup+"["+lime+"+"+tutup+"] File saved : "+lime+"out/"+done+tutup
 print tutup+"["+lime+"+"+tutup+"] Done"
 raw_input(tutup+"\nBack ...")
-menu_dump()
+menu()
